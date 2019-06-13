@@ -1,0 +1,78 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+
+/*---------- PHONE ----------*/
+/* Change the colors below */
+
+@media (min-width: 768px) {
+ p {
+    background-color: #ff8641;
+  }
+
+ h1 {
+  font-size: 2em;
+  background-color: #7b7d70;
+}
+
+h2 {
+  font-size: 1.5em;
+  background-color: #4eafb8;
+}
+
+
+
+/*---------- TABLET ----------*/
+/* Change the colors below */
+
+@media (min-width: 768px) {
+  p {
+    background-color: #7b8f8e;
+  }
+
+ h1 {
+  font-size: 2em;
+  background-color: #02cbd2;
+}
+
+h2 {
+  font-size: 1.5em;
+  background-color: #fcc02a;
+}
+
+
+
+
+/*---------- DESKTOP ----------*/
+/* Change the colors below */
+
+@media (min-width: 768px) {
+  p {
+    background-color: #c19e74;
+  }
+
+ h1 {
+  font-size: 2em;
+  background-color: #6e4b61;
+}
+
+h2 {
+  font-size: 1.5em;
+  background-color: #cabd61;
+}
